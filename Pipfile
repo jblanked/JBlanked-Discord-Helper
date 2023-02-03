@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+discord = "*"
+py2app = "*"
+win-inet-pton = "*"
+uvloop = "*"
+typing-extensions = "*"
+simplejson = "*"
+
+[dev-packages]
+autopep8 = "*"
+discord = "*"
+
+[requires]
+python_version = "3.11"
